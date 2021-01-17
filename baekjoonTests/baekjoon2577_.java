@@ -17,7 +17,7 @@ public class baekjoon2577_ {
 		//(int)(Math.log10(D)+1)은 숫자의 자리수 구하는 방법
 				
 		for(int i=0; i<Dlength; ++i) {
-			for(int j=0; j<=i; ++j) {
+			
 				
 			}
 		}
