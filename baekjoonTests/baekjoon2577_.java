@@ -24,9 +24,9 @@ public class baekjoon2577_ {
 				if (temp%10==array[i]) { //끝자리 수부터 비교
 					count++;
 				}
-				temp /=10;
+				temp /=10; // /=는 temp을 10으로 나눈후 그 값이 다시 temp
 			}
-			bw.write(count);
+			bw.write(count+"\n");
 		}
 		br.close();
 		bw.flush();
