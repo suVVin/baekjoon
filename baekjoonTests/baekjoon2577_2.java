@@ -25,7 +25,7 @@ public class baekjoon2577_2 {
 				if (temp % 10 == array[i]) {
 					count++;
 				}
-				temp /= 10; // 이게 if문 안에 들어가면 시간초과
+				temp /= 10; // 이게 if문 안에 들어가면 시간초과.
 			}
 			bw.write(count+"\n");
 		}
