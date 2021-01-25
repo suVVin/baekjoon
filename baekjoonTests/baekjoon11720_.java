@@ -14,6 +14,7 @@ public class baekjoon11720_ {
 			//문자를 아스키코드로 보고 하나하나를 (문자에세)숫자로 변환시킨다
 			sum = sum + number;
 		}
+		System.out.println(sum);
 	}
 
 }
